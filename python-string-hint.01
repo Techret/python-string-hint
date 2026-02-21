@@ -1,0 +1,20 @@
+                                                        #PYTHON STRINGS
+'''String is another data types in python programming that is made of up sequence of letters and numbers
+there embedded in single, double, or triple quotes(long strings, or multiline) as the case may be
+the string lateral is a combination of string expression in python
+The \ and n are escape characters and they indicate newline
+the \ and t are tab characters
+Strings are immutable, its value can be accessed not swapped.
+string is generally anything that can be encoded in text and bytes. it can be used for media files, network
+transfer, and the decoded/encoded types of non-ASCII unicode text  
+also, adding commas between string laterals automatically makes it a tuple and tuples are immutable as well
+The raw strings overrides the Escape character, when the r letter appears before a string text that contains the \ 
+character, its mechanism is suspended. eg, file_tag = open(r'C:\old\text.dat,'w')
+two backslash can be used alternatively to suppress a single backslash operations
+the + and * operator can be used to concatenate strings, iterations is possible as well with the use of for loops.
+The string characters can be indexed and sliced at the same time, the in and not operator can be used as well
+some useful string methods include;
+.startwith(), .endswith(), .isalpha(), .isalnum(). isdigit(), .isdecimal(), isspace(), istitle()
+.lower(), .upper(), .title(), .join(), .split()
+'''
+
